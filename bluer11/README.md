@@ -12,7 +12,7 @@ pip install protobuf
 ```
 python updateFirmware.py --url https://shop.hardwarewallet.com/hsm/process --perso perso_10 --firmware upgrade_bluer11 --firmwareKey upgrade_bluer11_key 
 ```
-  - When restarting, the firmware will display "Connect USB" - at this moment, perform the Non Secure Operating System update as described in https://github.com/LedgerHQ/blue-nonsecure-firmware-releases/bluer11 
+  - When restarting, the firmware will display "Connect USB" - at this moment, perform the Non Secure Operating System update as described in https://github.com/LedgerHQ/blue-nonsecure-firmware-releases/tree/master/bluer11 
   - When this is done, finalize the firmware personalization with
 ``` 
 python refactory.py --url https://shop.hardwarewallet.com/hsm/process --perso perso_10 --persoNew perso_11
