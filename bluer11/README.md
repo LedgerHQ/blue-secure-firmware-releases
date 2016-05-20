@@ -8,7 +8,7 @@ For this specific release, proceed as follows :
 pip install protobuf
 ```
   - Turn on Ledger Blue, keeping the button pressed until "secure bootloader" is displayed
-  - Update the Operating System (hash 07c9d1b8...f0ec6a3f) - the device turns off
+  - Update the Operating System (hash 07c9d1b82709d0babe5159836d0c85f3cefd1db8328ac970e95cca9bf0ec6a3f) - the device turns off
 ```
 python updateFirmware.py --url https://shop.hardwarewallet.com/hsm/process --perso perso_10 --firmware upgrade_bluer11 --firmwareKey upgrade_bluer11_key 
 ```
